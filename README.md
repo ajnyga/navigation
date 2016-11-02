@@ -24,4 +24,5 @@ Some translation keys have functionality:
 - *Custom themes* may have own css classes used in frontend/components/primaryNavMenu.tpl (for example Bootstrap) and these are now hard coded in createMenu function. One option would be to use plugin settings to save css class names.
 - Upon enabling the plugin in a journal the tables should be prefilled with the default navigation items 
 - When turning on warnings in config.inc.php editing items leads to a blank page with {status: true etc. Nothing in the error_log and no javascript errors present.
+- merge createMenu and createTree functions or simplify the creation of menu listing some other way?
 - a lot of tidying up. OJS3 plugins are hard to write because there are so few of them and no documentation exists
