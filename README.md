@@ -3,7 +3,10 @@ Navigation plugin for OJS 3.x
 
 The plugin replaces the frontend/components/primaryNavMenu.tpl template with a template that loads all navigation item from the OJS database. The plugin creates two tables: navigation and navigation_settings.
 
-Upload and enable in plugin settings. New navigation items can be added from Settings->Website->Navigation.
+Upload and enable in plugin settings. 
+Run *php tools/dbXMLtoSQL.php -schema execute plugins/generic/navigation/schema.xml*
+
+New navigation items can be added from Settings->Website->Navigation.
 
 The type of a navigation item is *url* or *smarty*, if you use *smarty* the URL should be a json encoded array containing router elements ie. '{"page":"issue","op":"current"}'.
 
