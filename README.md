@@ -1,6 +1,8 @@
 # navigation
 Navigation plugin for OJS 3.x
 
+**NOTICE! Experimental, test before using in production!**
+
 The plugin replaces the frontend/components/primaryNavMenu.tpl template with a template that loads all navigation item from the OJS database. The plugin creates two tables: navigation and navigation_settings.
 
 Upload and enable in plugin settings. 
