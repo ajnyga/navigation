@@ -19,8 +19,8 @@ class NavigationDAO extends DAO {
 	/**
 	 * Constructor
 	 */
-	function NavigationDAO() {
-		parent::DAO();
+	function __construct() {
+		parent::__construct();
 	}
 
 	
